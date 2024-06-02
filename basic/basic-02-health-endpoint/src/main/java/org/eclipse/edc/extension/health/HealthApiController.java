@@ -14,9 +14,9 @@ import java.util.Map;
 @Path("/health")
 public class HealthApiController {
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/edc_sample";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/edc_Sample";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "password";
+    private static final String DB_PASSWORD = "H@idarsara12";
 
     @GET
     @Path("/status")
