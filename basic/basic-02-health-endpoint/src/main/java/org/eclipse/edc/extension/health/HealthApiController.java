@@ -16,7 +16,7 @@ public class HealthApiController {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/edc_Sample";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "H@idarsara12";
+    private static final String DB_PASSWORD = "123456";
 
     @GET
     @Path("/status")
