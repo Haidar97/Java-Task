@@ -22,7 +22,7 @@ plugins {
 dependencies {
     implementation(libs.edc.boot)
     implementation(libs.edc.connector.core)
-    implementation("com.fasterxml.jackson.core:jackson-databind:2.13.3")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.1")
     implementation("mysql:mysql-connector-java:8.0.26")
     implementation("jakarta.ws.rs:jakarta.ws.rs-api:4.0.0")
 }
